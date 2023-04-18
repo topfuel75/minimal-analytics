@@ -1,0 +1,24 @@
+declare const param: {
+    protocolVersion: string;
+    trackingId: string;
+    pageId: string;
+    language: string;
+    clientId: string;
+    firstVisit: string;
+    hitCount: string;
+    sessionId: string;
+    sessionCount: string;
+    sessionEngagement: string;
+    sessionStart: string;
+    debug: string;
+    referrer: string;
+    location: string;
+    title: string;
+    eventName: string;
+    eventParam: string;
+    eventParamNumber: string;
+    screenResolution: string;
+    enagementTime: string;
+};
+declare const files: string[];
+export { param, files };

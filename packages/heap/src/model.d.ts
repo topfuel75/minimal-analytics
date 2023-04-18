@@ -1,0 +1,33 @@
+declare const param: {
+    appId: string;
+    targetClass: string;
+    domain: string;
+    searchKeyword: string;
+    hash: string;
+    path: string;
+    targetId: string;
+    custom: string;
+    targetTag: string;
+    query: string;
+    referrer: string;
+    title: string;
+    targetText: string;
+    hierachy: string;
+    timeStamp: string;
+    version: string;
+    userId: string;
+    sessionId: string;
+    sentTime: string;
+    viewId: string;
+    previousPage: string;
+    sessionParam: string;
+    pageParam: string;
+    utm: {
+        source: string;
+        medium: string;
+        term: string;
+        campaign: string;
+        content: string;
+    };
+};
+export { param };
