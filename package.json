@@ -50,5 +50,8 @@
     "webpack": "^5.79.0",
     "webpack-cli": "^5.0.1",
     "webpack-node-externals": "^3.0.0"
+  },
+  "dependencies": {
+    "@minimal-analytics/ga4": "^1.8.8"
   }
 }
